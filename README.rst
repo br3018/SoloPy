@@ -54,7 +54,6 @@ Dependencies
 SoloPy requires the following dependencies:
 
 - `Python 3 <https://www.python.org/downloads/>`__
-- `python-interface <https://github.com/ssanderson/python-interface>`__
 - For **UART communication**: `pyserial <https://github.com/pyserial/pyserial>`__
 - For **CANopen communication**: `Python-Can <https://pypi.org/project/python-can/>`__
 
