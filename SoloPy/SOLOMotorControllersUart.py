@@ -99,7 +99,7 @@ class SoloMotorControllerUart:
                 self._ser.write(_cmd)
 
                 # Time to ensure the writing, reducing it can make the comunication instable
-                time.sleep(0.1)
+                time.sleep(0.01)
 
                 # read up to ten bytes (timeout)
                 _read_packet = self._ser.read(10)
